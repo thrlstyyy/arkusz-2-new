@@ -1,0 +1,46 @@
+body {
+    margin: 0%;
+    font-family: cursive, sans-serif;
+    background-color: #4682B4;
+}
+header, footer {
+    background-color: #0F0F64;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+aside {
+    width: 20%;
+    height: 500px;
+}
+.container {
+    width: 80%;
+    display: flex;
+}
+img {
+    width: 150px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+h4 {
+    text-align: center;
+}
+.wynik {
+    background-color: #2b6ba0;
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    display: inline-block;
+}
+main {
+    display: flex;
+}
+#top, #down {
+    overflow-y: auto;
+    height: 250px;
+}
